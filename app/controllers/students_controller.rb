@@ -11,6 +11,7 @@ class StudentsController < ApplicationController
   end
 
   def create
+    @student.create()
   end
 
 end
